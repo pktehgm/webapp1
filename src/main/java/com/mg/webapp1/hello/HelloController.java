@@ -34,6 +34,7 @@ public class HelloController {
     //JSP
     //say-hello-jsp => say-hello.jsp
     //src/main/resources/META-INF/resources/WEB-INF/jsp/sayHello.jsp
+    //Model
     @RequestMapping("/say-hello-jsp")
     public String sayHelloJsp() {
         return "sayHello";
