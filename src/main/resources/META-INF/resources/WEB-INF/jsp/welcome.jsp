@@ -6,5 +6,6 @@
 </head>
 <body>
 <div> Welcome ${name} ${password}!</div>
+<div><a href="list-todos">Manage</a> your todos </div>
 </body>
 </html>
