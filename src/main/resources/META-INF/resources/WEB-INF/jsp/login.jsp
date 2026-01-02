@@ -6,12 +6,11 @@
 </head>
 <body>
 <h2>Login</h2>
-<form action="login" method="post">
-    <label for="username">${name}:</label>
-    <input type="text" id="username" name="username" required><br><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br><br>
-    <input type="submit" value="Login">
+<pre>${errorMessage}</pre>
+<form method="post">
+    Name: <input type="text" name="name">
+    Password: <input type="password" name="password">
+    <input type="submit">
 </form>
 </body>
 </html>
