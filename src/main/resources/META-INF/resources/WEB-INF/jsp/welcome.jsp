@@ -5,8 +5,10 @@
     <title>Welcome sub page</title>
 </head>
 <body>
-<div> Welcome ${name} ${password}!</div>
-<hr>
-<div><a href="list-todos">Manage</a> your todos </div>
+<div class="container">
+    <h1> Welcome ${name} ${password}!</h1>
+    <hr>
+    <a href="list-todos">Manage</a> your todos
+</div>
 </body>
 </html>
